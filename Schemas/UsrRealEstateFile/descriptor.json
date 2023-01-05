@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "29ef78f1-8201-4b04-b07d-cebcdb03d361",
+    "Name": "UsrRealEstateFile",
+    "ModifiedOnUtc": "\/Date(1672849338000)\/",
+    "Parent": {
+      "UId": "556c5867-60a7-4456-aae1-a57a122bef70",
+      "Name": "File"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Файл и ссылка объекта RealEstate"
+  }
+}

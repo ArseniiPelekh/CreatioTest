@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Просмотры недвижимости" />
+			<Item Name="Columns.UsrDescription.Caption" Value="Комментарий" />
+			<Item Name="Columns.UsrName.Caption" Value="Название" />
+			<Item Name="Columns.UsrPotentialClient.Caption" Value="Потенциальный клиент" />
+			<Item Name="Columns.UsrRealEstate.Caption" Value="Недвижимость" />
+			<Item Name="Columns.UsrResponsibleContact.Caption" Value="Ответственный" />
+			<Item Name="Columns.UsrViewDateTime.Caption" Value="Дата-время просмотра" />
+			<Item Name="EventsProcessSchema.Caption" Value="Бизнес-процесс" />
+		</Items>
+	</Group>
+</Resources>

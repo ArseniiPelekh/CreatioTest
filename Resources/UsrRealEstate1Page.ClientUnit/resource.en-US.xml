@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Страница редактирования: &quot;RealEstate&quot;" />
+			<Item Name="LocalizableStrings.Tabbf18faebTabLabelTabCaption.Value" Value="Activities" />
+			<Item Name="LocalizableStrings.UsrSchema08a9fbcbDetailb60533efDetailCaptionOnPage.Value" Value="Property views" />
+			<Item Name="LocalizableStrings.UsrSchema08a9fbcbDetailbaf15eafDetailCaptionOnPage.Value" Value="Property views" />
+			<Item Name="LocalizableStrings.UsrSchemaPropertyViewsDetailCaptionOnPage.Value" Value="Property views" />
+			<Item Name="LocalizableStrings.ValueCannotBeLessThanNull.Value" Value="Value cannot be less than 0" />
+		</Items>
+	</Group>
+</Resources>

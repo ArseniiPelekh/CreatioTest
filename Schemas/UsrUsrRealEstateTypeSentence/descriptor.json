@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "cf1ee12a-4f58-40d9-8715-06ca5cda2d59",
+    "Name": "UsrUsrRealEstateTypeSentence",
+    "ModifiedOnUtc": "\/Date(1672935804000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тип предложения"
+  }
+}

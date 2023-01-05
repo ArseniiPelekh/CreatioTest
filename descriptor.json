@@ -2,13 +2,18 @@
   "Descriptor": {
     "UId": "d03ad33f-bf94-175c-f163-29cc467bb6f4",
     "Name": "RealEstate",
-    "ModifiedOnUtc": "\/Date(1672847878000)\/",
+    "ModifiedOnUtc": "\/Date(1672849293000)\/",
     "Maintainer": "Customer",
     "DependsOn": [
       {
         "UId": "5be3998b-c5c3-42bb-a01c-2e4149059a97",
         "PackageVersion": "7.8.0",
         "Name": "Base"
+      },
+      {
+        "UId": "d7559847-f38e-410c-baee-6f43bbe80d42",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterpriseSoftkey_ENU"
       }
     ]
   }

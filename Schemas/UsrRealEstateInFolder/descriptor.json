@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "d1bb3130-ee7e-4d15-ba6f-f4b0bd5f90aa",
+    "Name": "UsrRealEstateInFolder",
+    "ModifiedOnUtc": "\/Date(1672849342000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "RealEstate в группе"
+  }
+}

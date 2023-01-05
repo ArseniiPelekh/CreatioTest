@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "783b13ad-6424-4b23-a079-ebad45646592",
+    "Name": "UsrRealEstateTag",
+    "ModifiedOnUtc": "\/Date(1672849344000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Тег раздела RealEstate"
+  }
+}
