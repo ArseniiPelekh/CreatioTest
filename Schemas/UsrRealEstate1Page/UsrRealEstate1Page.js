@@ -149,13 +149,13 @@ define("UsrRealEstate1Page", ["ProcessModuleUtilities"], function(ProcessModuleU
                 this.set("UsrCommission", 0);
           	},
             automaticCreationViews: function () {
-                var args = {
+				var args = {
                      sysProcessName: "UsrAutomaticCreationViewsRealEstate",
                      parameters: {
-                     RealEstateId: this.get("Id"),
+                        RealEstateId: this.get("Id"),
                      },
                 };
-        
+
                 ProcessModuleUtilities.executeProcess(args);
             },
             getActions: function () {
