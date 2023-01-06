@@ -1,4 +1,4 @@
-define("UsrRealEstate1Page", [], function() {
+define("UsrRealEstate1Page", ["ProcessModuleUtilities"], function(ProcessModuleUtilities) {
 	return {
 		entitySchemaName: "UsrRealEstate",
 		attributes: {
@@ -147,7 +147,34 @@ define("UsrRealEstate1Page", [], function() {
                     return;
                 }
                 this.set("UsrCommission", 0);
-          	}
+          	},
+            automaticCreationViews: function () {
+                var args = {
+                     sysProcessName: "UsrAutomaticCreationViewsRealEstate",
+                     parameters: {
+                     RealEstateId: this.get("Id"),
+                     },
+                };
+        
+                ProcessModuleUtilities.executeProcess(args);
+            },
+            getActions: function () {
+                var actionMenuItems = this.callParent(arguments);
+                actionMenuItems.addItem(
+                    this.getActionsMenuItem({
+                    Type: "Terrasoft.MenuSeparator",
+                    Caption: "",
+                    })
+                );
+                var caption = this.get("Resources.Strings.AutomaticCreationViews");
+                actionMenuItems.addItem(
+                    this.getActionsMenuItem({
+                    Caption: caption,
+                    Tag: "automaticCreationViews",
+                    })
+                );
+                return actionMenuItems;
+            },
 		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[

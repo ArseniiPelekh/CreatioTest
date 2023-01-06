@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Страница редактирования: &quot;RealEstate&quot;" />
+			<Item Name="LocalizableStrings.AutomaticCreationViews.Value" Value="Automatic creation of views" />
 			<Item Name="LocalizableStrings.Tabbf18faebTabLabelTabCaption.Value" Value="Activities" />
 			<Item Name="LocalizableStrings.UsrSchema08a9fbcbDetailb60533efDetailCaptionOnPage.Value" Value="Property views" />
 			<Item Name="LocalizableStrings.UsrSchema08a9fbcbDetailbaf15eafDetailCaptionOnPage.Value" Value="Property views" />

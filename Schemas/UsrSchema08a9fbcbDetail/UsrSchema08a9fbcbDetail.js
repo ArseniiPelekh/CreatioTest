@@ -15,7 +15,36 @@ define("UsrSchema08a9fbcbDetail", ["ConfigurationGrid", "ConfigurationGridGenera
 		methods: {
 			onActiveRowAction: function(buttonTag, primaryColumnValue) {
 				this.mixins.ConfigurationGridUtilitiesV2.onActiveRowAction.call(this, buttonTag, primaryColumnValue);
-			}
+			},
+			init: function () {
+				this.callParent(arguments);
+				this.Terrasoft.ServerChannel.on(
+				  Terrasoft.EventName.ON_MESSAGE,
+				  this.onServerMessageReceived,
+				  this
+				);
+			  },
+			 destroy: function () {
+				this.Terrasoft.ServerChannel.un(
+				  Terrasoft.EventName.ON_MESSAGE,
+				  this.onServerMessageReceived,
+				  this
+				);
+				this.callParent(arguments);
+			  },
+			  onServerMessageReceived: function (event, message) {
+				var messageCode = message && message.Header.Sender;
+				if (messageCode === "ViewsAdded") {
+				  this.onReleasesCreated();
+				}
+			  },
+			  onReleasesCreated: function () {
+                // TODO: Not all posts are loading
+                setTimeout(function()
+                {
+                    this.loadGridData();
+                }.bind(this), 1000);
+			  },
 		},
 		diff: /**SCHEMA_DIFF*/[
 			{
